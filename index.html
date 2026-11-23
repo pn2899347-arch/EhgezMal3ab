@@ -1,18 +1,39 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>موقعي الأول</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>احجز ملعبك - EhgezMal3ab</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>أهلاً بيك في موقعي</h1>
-    <p>ده أول تطبيق ويب ليا!</p>
+  <header>
+    <h1>⚽ أهلاً بيك في احجز ملعبك</h1>
+    <p>اختار الملعب المناسب واحجز ساعتك بسهولة</p>
+  </header>
 
-    <button onclick="sayHello()">اضغط هنا</button>
+  <main class="stadiums-container">
+    <div class="card">
+      <h2>ملعب النجوم الخماسي</h2>
+      <p>📍 مدينة نصر | 💵 250 جنيه / ساعة</p>
+      <button onclick="bookStadium('ملعب النجوم الخماسي')">احجز الآن</button>
+    </div>
 
-    <script src="script.js"></script>
+    <div class="card">
+      <h2>ملعب الكابتن</h2>
+      <p>📍 المعادي | 💵 300 جنيه / ساعة</p>
+      <button onclick="bookStadium('ملعب الكابتن')">احجز الآن</button>
+    </div>
+
+    <div class="card">
+      <h2>ملعب الأبطال</h2>
+      <p>📍 المهندسين | 💵 280 جنيه / ساعة</p>
+      <button onclick="bookStadium('ملعب الأبطال')">احجز الآن</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
+ئئء
